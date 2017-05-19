@@ -40,9 +40,9 @@ int main(int argc, char **argv)
 		sf2d_draw_texture(tex_image, y, x);
 		sf2d_end_frame();
 
-		sf2d_start_frame(GFX_BOTTOM);
+		/*sf2d_start_frame(GFX_BOTTOM);
 		sf2d_draw_texture(bg_image, 0, 0);
-		sf2d_end_frame();
+		sf2d_end_frame();*/
 		
 		//If they are holding a D-pad key, change the mouse position accordingly
 		if (kPressed & KEY_DOWN)
